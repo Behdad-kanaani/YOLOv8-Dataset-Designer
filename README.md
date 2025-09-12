@@ -10,9 +10,13 @@
 
 ---
 
-[فارسی](https://github.com/Behdad-kanaani/YOLOv8-Dataset-Designer/blob/main/FA.md)
-[English](https://github.com/Behdad-kanaani/YOLOv8-Dataset-Designer/blob/main/README.md)
+<p align="center">
+  <a href="https://github.com/Behdad-kanaani/YOLOv8-Dataset-Designer/blob/main/FA.md">🇮🇷 فارسی</a> | 
+  <a href="https://github.com/Behdad-kanaani/YOLOv8-Dataset-Designer/blob/main/README.md">🇺🇸 English</a>
+</p>
+
 ---
+
 
 ## 📖 Overview
 
