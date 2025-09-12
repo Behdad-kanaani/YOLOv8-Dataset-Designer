@@ -12,25 +12,26 @@
 
 ## 📖 Overview
 
-The **YOLOv8 Dataset Designer** is an **end-to-end dataset generation toolkit** built for computer vision practitioners, AI engineers, and researchers who want to quickly design **custom datasets for YOLOv8**.  
+The **YOLOv8 Dataset Designer** is an **end-to-end dataset generation toolkit** designed for computer vision practitioners, AI engineers, and researchers who want to quickly create **custom datasets for YOLOv8**.
 
-It provides two complementary modes:  
-- 🚀 **Command-line mode (CLI)** for automation and batch dataset creation.  
-- 🎨 **Graphical User Interface (GUI)** for intuitive, visual dataset design without touching code.  
+It provides two complementary modes:
 
-With this tool, you can go from **raw images → high-quality YOLOv8-ready datasets** in just a few steps.
+* 🚀 **Command-line mode (CLI)** for automation and batch dataset creation.
+* 🎨 **Graphical User Interface (GUI)** for intuitive, visual dataset design without the need to write any code.
+
+With this tool, you can transform **raw images → high-quality YOLOv8-ready datasets** in just a few simple steps.
 
 ---
 
 ## ✨ Features
 
-- 🔧 **Two Modes in One Project**: Run with GUI or CLI depending on your workflow.  
-- 🖼️ **Flexible Input Handling**: Accepts image paths directly or interactively through the UI.  
-- 🎚️ **Customizable Parameters**: Configure geometry levels, color transformations, JPEG quality, validation ratio, and more.  
-- 📦 **Seamless Dataset Export**: Generates datasets that follow YOLOv8 conventions out-of-the-box.  
-- 🔒 **Reproducibility**: Use random seeds for deterministic dataset creation.  
-- 🛠️ **Modular Codebase**: Clean architecture with `AppRunner`, `DatasetGenerator`, and `Config` modules for maintainability.  
-- 🧩 **Minimal External Dependencies**: Easy setup in a fresh Python environment.  
+* 🔧 **Two Modes in One Project**: Switch between GUI and CLI depending on your workflow.
+* 🖼️ **Flexible Input Handling**: Supports image paths directly or interactively through the UI.
+* 🎚️ **Customizable Parameters**: Adjust geometry levels, color transformations, JPEG quality, validation ratio, and more.
+* 📦 **Seamless Dataset Export**: Automatically generates datasets that adhere to YOLOv8 conventions.
+* 🔒 **Reproducibility**: Use random seeds to create deterministic datasets.
+* 🛠️ **Modular Codebase**: Clean architecture with separate modules for `AppRunner`, `DatasetGenerator`, and `Config` to ensure maintainability.
+* 🧩 **Minimal External Dependencies**: Easy to set up in a fresh Python environment.
 
 ---
 
@@ -47,7 +48,7 @@ YOLOv8-Dataset-Designer/
 ├── main.py              # Entry point
 ├── requirements.txt     # Dependencies
 └── README.md            # Project documentation
-````
+```
 
 ---
 
@@ -60,7 +61,7 @@ git clone https://github.com/Behdad-kanaani/YOLOv8-Dataset-Designer.git
 cd YOLOv8-Dataset-Designer
 ```
 
-(Optional but recommended) create a virtual environment:
+(Optional but recommended) Create a virtual environment:
 
 ```bash
 python -m venv venv
@@ -84,7 +85,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-The **GUI** will launch, and you can visually select images, adjust dataset parameters, and start dataset generation interactively.
+This will launch the **GUI**, where you can visually select images, adjust dataset parameters, and start the dataset generation process interactively.
 
 ---
 
@@ -96,7 +97,7 @@ Generate datasets without GUI (ideal for automation):
 python main.py --no-ui --image-path /path/to/your/image.jpg
 ```
 
-#### Available CLI arguments:
+#### Available CLI Arguments:
 
 | Argument       | Type   | Default                     | Description                              |
 | -------------- | ------ | --------------------------- | ---------------------------------------- |
@@ -107,19 +108,19 @@ python main.py --no-ui --image-path /path/to/your/image.jpg
 
 ## ⚡ Example Workflows
 
-### ✅ Quick test with default config
+### ✅ Quick Test with Default Config
 
 ```bash
 python main.py --no-ui
 ```
 
-### ✅ Specify your own dataset image
+### ✅ Specify Your Own Dataset Image
 
 ```bash
 python main.py --no-ui --image-path ./samples/car.jpg
 ```
 
-### ✅ Use GUI for multiple images
+### ✅ Use GUI for Multiple Images
 
 ```bash
 python main.py
@@ -129,7 +130,7 @@ python main.py
 
 ## 📚 Configuration
 
-All configuration is handled via the `Config` class. Example:
+All configuration is managed through the `Config` class. Example:
 
 ```python
 cfg = Config(
@@ -144,7 +145,7 @@ cfg = Config(
 )
 ```
 
-This allows you to fine-tune:
+With this, you can fine-tune the following parameters:
 
 * Dataset size
 * Train/Validation split ratio
@@ -160,7 +161,7 @@ We welcome contributions of all forms — bug fixes, new features, UI improvemen
 
 1. Fork this repository
 2. Create a new branch: `git checkout -b feature/my-feature`
-3. Commit changes: `git commit -m "Add my feature"`
+3. Commit your changes: `git commit -m "Add my feature"`
 4. Push to the branch: `git push origin feature/my-feature`
 5. Submit a Pull Request 🎉
 
@@ -192,5 +193,3 @@ See the full license text in the [LICENSE](LICENSE) file.
 ---
 
 > If you find this project useful, don’t forget to ⭐ star the repo and share it with the community! 🚀
-
-
