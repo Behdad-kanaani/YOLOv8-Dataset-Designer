@@ -10,8 +10,8 @@
 
 ---
 
-برای مشاهده نسخه انگلیسی این README، لطفاً به این [لینک](https://github.com/Behdad-kanaani/YOLOv8-Dataset-Designer/blob/main/README.md) مراجعه کنید.
-
+[فارسی](https://github.com/Behdad-kanaani/YOLOv8-Dataset-Designer/blob/main/FA.md)
+[English](https://github.com/Behdad-kanaani/YOLOv8-Dataset-Designer/blob/main/README.md)
 ---
 
 ## 📖 Overview
