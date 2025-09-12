@@ -43,8 +43,6 @@ YOLOv8-Dataset-Designer/
 │   ├── ui/              # UI components
 │   ├── config.py        # Configuration management
 │   └── ...
-├── dataset_generator.py # CLI dataset generation logic
-├── app_runner.py        # GUI runner
 ├── main.py              # Entry point
 ├── requirements.txt     # Dependencies
 └── README.md            # Project documentation
