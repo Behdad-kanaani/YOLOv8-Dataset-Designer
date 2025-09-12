@@ -10,6 +10,13 @@
 
 ---
 
+<p align="center">
+  <a href="https://github.com/Behdad-kanaani/YOLOv8-Dataset-Designer/blob/main/FA.md">🇮🇷 فارسی</a> | 
+  <a href="https://github.com/Behdad-kanaani/YOLOv8-Dataset-Designer/blob/main/README.md">🇺🇸 English</a>
+</p>
+
+---
+
 ## 📖 معرفی
 
 **YOLOv8 Dataset Designer** یک **ابزار طراحی مجموعه داده کامل** است که برای متخصصان بینایی کامپیوتری، مهندسان AI و محققانی که می‌خواهند **مجموعه داده‌های سفارشی برای YOLOv8** بسازند، طراحی شده است.
