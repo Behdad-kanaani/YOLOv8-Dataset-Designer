@@ -10,6 +10,10 @@
 
 ---
 
+برای مشاهده نسخه انگلیسی این README، لطفاً به این [لینک](https://github.com/Behdad-kanaani/YOLOv8-Dataset-Designer/blob/main/README.md) مراجعه کنید.
+
+---
+
 ## 📖 Overview
 
 The **YOLOv8 Dataset Designer** is an **end-to-end dataset generation toolkit** designed for computer vision practitioners, AI engineers, and researchers who want to quickly create **custom datasets for YOLOv8**.
